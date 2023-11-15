@@ -154,6 +154,48 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@nebulys/base@workspace:packages/nebulys-base":
+  version: 0.0.0-use.local
+  resolution: "@nebulys/base@workspace:packages/nebulys-base"
+  languageName: unknown
+  linkType: soft
+
+"@nebulys/hooks@workspace:packages/nebulys-hooks":
+  version: 0.0.0-use.local
+  resolution: "@nebulys/hooks@workspace:packages/nebulys-hooks"
+  languageName: unknown
+  linkType: soft
+
+"@nebulys/icon@workspace:packages/nebulys-icon":
+  version: 0.0.0-use.local
+  resolution: "@nebulys/icon@workspace:packages/nebulys-icon"
+  languageName: unknown
+  linkType: soft
+
+"@nebulys/icons@workspace:packages/nebulys-icons":
+  version: 0.0.0-use.local
+  resolution: "@nebulys/icons@workspace:packages/nebulys-icons"
+  languageName: unknown
+  linkType: soft
+
+"@nebulys/styles@workspace:packages/nebulys-styles":
+  version: 0.0.0-use.local
+  resolution: "@nebulys/styles@workspace:packages/nebulys-styles"
+  languageName: unknown
+  linkType: soft
+
+"@nebulys/ui@workspace:packages/nebulys-ui":
+  version: 0.0.0-use.local
+  resolution: "@nebulys/ui@workspace:packages/nebulys-ui"
+  languageName: unknown
+  linkType: soft
+
+"@nebulys/utils@workspace:packages/nebulys-utils":
+  version: 0.0.0-use.local
+  resolution: "@nebulys/utils@workspace:packages/nebulys-utils"
+  languageName: unknown
+  linkType: soft
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -3414,48 +3456,6 @@ __metadata:
   checksum: dce2a9ccda171ec979a3b4f869a102b1343dee35e920146776780de182f16eae459644d187e38d59a3d37adf85685e1c17c38cf7bfda7e39a9880f7a1d10a74c
   languageName: node
   linkType: hard
-
-"nebulys-base@workspace:packages/nebulys-base":
-  version: 0.0.0-use.local
-  resolution: "nebulys-base@workspace:packages/nebulys-base"
-  languageName: unknown
-  linkType: soft
-
-"nebulys-hooks@workspace:packages/nebulys-hooks":
-  version: 0.0.0-use.local
-  resolution: "nebulys-hooks@workspace:packages/nebulys-hooks"
-  languageName: unknown
-  linkType: soft
-
-"nebulys-icon@workspace:packages/nebulys-icon":
-  version: 0.0.0-use.local
-  resolution: "nebulys-icon@workspace:packages/nebulys-icon"
-  languageName: unknown
-  linkType: soft
-
-"nebulys-icons@workspace:packages/nebulys-icons":
-  version: 0.0.0-use.local
-  resolution: "nebulys-icons@workspace:packages/nebulys-icons"
-  languageName: unknown
-  linkType: soft
-
-"nebulys-styles@workspace:packages/nebulys-styles":
-  version: 0.0.0-use.local
-  resolution: "nebulys-styles@workspace:packages/nebulys-styles"
-  languageName: unknown
-  linkType: soft
-
-"nebulys-ui@workspace:packages/nebulys-ui":
-  version: 0.0.0-use.local
-  resolution: "nebulys-ui@workspace:packages/nebulys-ui"
-  languageName: unknown
-  linkType: soft
-
-"nebulys-utils@workspace:packages/nebulys-utils":
-  version: 0.0.0-use.local
-  resolution: "nebulys-utils@workspace:packages/nebulys-utils"
-  languageName: unknown
-  linkType: soft
 
 "nebulys@workspace:.":
   version: 0.0.0-use.local
