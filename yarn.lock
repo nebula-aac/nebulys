@@ -5,6 +5,48 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"nebulys-base@workspace:packages/nebulys-base":
+  version: 0.0.0-use.local
+  resolution: "nebulys-base@workspace:packages/nebulys-base"
+  languageName: unknown
+  linkType: soft
+
+"nebulys-hooks@workspace:packages/nebulys-hooks":
+  version: 0.0.0-use.local
+  resolution: "nebulys-hooks@workspace:packages/nebulys-hooks"
+  languageName: unknown
+  linkType: soft
+
+"nebulys-icon@workspace:packages/nebulys-icon":
+  version: 0.0.0-use.local
+  resolution: "nebulys-icon@workspace:packages/nebulys-icon"
+  languageName: unknown
+  linkType: soft
+
+"nebulys-icons@workspace:packages/nebulys-icons":
+  version: 0.0.0-use.local
+  resolution: "nebulys-icons@workspace:packages/nebulys-icons"
+  languageName: unknown
+  linkType: soft
+
+"nebulys-styles@workspace:packages/nebulys-styles":
+  version: 0.0.0-use.local
+  resolution: "nebulys-styles@workspace:packages/nebulys-styles"
+  languageName: unknown
+  linkType: soft
+
+"nebulys-ui@workspace:packages/nebulys-ui":
+  version: 0.0.0-use.local
+  resolution: "nebulys-ui@workspace:packages/nebulys-ui"
+  languageName: unknown
+  linkType: soft
+
+"nebulys-utils@workspace:packages/nebulys-utils":
+  version: 0.0.0-use.local
+  resolution: "nebulys-utils@workspace:packages/nebulys-utils"
+  languageName: unknown
+  linkType: soft
+
 "nebulys@workspace:.":
   version: 0.0.0-use.local
   resolution: "nebulys@workspace:."
