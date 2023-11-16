@@ -3,9 +3,23 @@
   "workspaces": [
     "packages/*"
   ],
-  "packageManager": "yarn@4.0.2",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
   "devDependencies": {
+    "@commitlint/cli": "^18.4.1",
+    "@commitlint/config-conventional": "^18.4.0",
+    "@commitlint/config-lerna-scopes": "^18.4.0",
+    "@commitlint/cz-commitlint": "^18.4.1",
+    "commitizen": "^4.3.0",
+    "inquirer": "8",
     "lerna": "^7.4.2",
     "typescript": "^5.2.2"
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }
