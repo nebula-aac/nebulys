@@ -10,5 +10,15 @@
     ".github/**",
     "packages/**/.eslintrc.js",
     "packages/**/.gitignore"
-  ]
+  ],
+  "command": {
+    "version": {
+      "createRelease": "github",
+      "conventionalCommits": true,
+      "allowBranch": [
+        "main"
+      ],
+      "message": "chore(release): publish"
+    }
+  }
 }
