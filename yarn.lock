@@ -5597,6 +5597,7 @@ __metadata:
     lerna: "npm:^7.4.2"
     semantic-release: "npm:^22.0.7"
     semantic-release-monorepo: "npm:^7.0.5"
+    semantic-release-monorepo-esm: "npm:^1.0.10"
     typescript: "npm:^5.2.2"
   languageName: unknown
   linkType: soft
@@ -7248,6 +7249,15 @@ __metadata:
   version: 2.1.2
   resolution: "safer-buffer@npm:2.1.2"
   checksum: 7e3c8b2e88a1841c9671094bbaeebd94448111dd90a81a1f606f3f67708a6ec57763b3b47f06da09fc6054193e0e6709e77325415dc8422b04497a8070fa02d4
+  languageName: node
+  linkType: hard
+
+"semantic-release-monorepo-esm@npm:^1.0.10":
+  version: 1.0.10
+  resolution: "semantic-release-monorepo-esm@npm:1.0.10"
+  peerDependencies:
+    semantic-release: ">=22"
+  checksum: d01479d86784aaa7e78c62dab3e91b88b83ffc00f5a62abcbd45ed45f32b01f8b49c6b3a4a5aa40b10dcf4d7a72a44f143289a21af5989020f87aec8e54ca28d
   languageName: node
   linkType: hard
 
