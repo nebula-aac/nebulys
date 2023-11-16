@@ -1,5 +1,6 @@
 {
   "name": "nebulys",
+  "type": "module",
   "workspaces": [
     "packages/*"
   ],
