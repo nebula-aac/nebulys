@@ -4,7 +4,8 @@
     "packages/*"
   ],
   "scripts": {
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "release": "lerna exec --concurrency 1 -- npx --no-install semantic-release --ci -e semantic-release-monorepo"
   },
   "config": {
     "commitizen": {
