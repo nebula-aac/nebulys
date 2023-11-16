@@ -1,5 +1,14 @@
 {
   "$schema": "node_modules/lerna/schemas/lerna-schema.json",
   "version": "semantic-released",
-  "npmClient": "yarn"
+  "npmClient": "yarn",
+  "ignoreChanges": [
+    "CHANGELOG.md",
+    "node_modules/**",
+    "package.json",
+    "*.md",
+    ".github/**",
+    "packages/**/.eslintrc.js",
+    "packages/**/.gitignore"
+  ]
 }
