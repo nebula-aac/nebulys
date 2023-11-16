@@ -1,17 +1,36 @@
 {
   "name": "nebulys",
+  "version": "0.0.0-development",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nebula-aac/nebulys.git"
+  },
   "type": "module",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "commit": "git-cz",
-    "release": "yarn workspace nebulys run semantic-release -e semantic-release-monorepo"
+    "release": "yarn workspace nebulys run semantic-release -e semantic-release-monorepo",
+    "semantic-release": "semantic-release"
   },
   "config": {
     "commitizen": {
       "path": "@commitlint/cz-commitlint"
     }
+  },
+  "release": {
+    "branches": [
+      "main",
+      "next"
+    ],
+    "extends": "semantic-release-monorepo",
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/github"
+    ]
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.1",
@@ -28,5 +47,8 @@
     "semantic-release-monorepo": "^7.0.5",
     "typescript": "^5.2.2"
   },
-  "packageManager": "yarn@4.0.2"
+  "packageManager": "yarn@4.0.2",
+  "publishConfig": {
+    "access": "restricted"
+  }
 }
