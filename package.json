@@ -36,7 +36,7 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.1",
     "@commitlint/config-conventional": "^18.4.0",
-    "@commitlint/config-lerna-scopes": "^18.4.0",
+    "@commitlint/config-lerna-scopes": "^18.4.3",
     "@commitlint/cz-commitlint": "^18.4.1",
     "@semantic-release/commit-analyzer": "^11.1.0",
     "@semantic-release/github": "^9.2.3",
@@ -44,7 +44,7 @@
     "@semantic-release/release-notes-generator": "^12.1.0",
     "commitizen": "^4.3.0",
     "inquirer": "8",
-    "lerna": "^7.4.2",
+    "lerna": "^8.0.1",
     "lerna-clean-changelogs-cli": "^3.0.13",
     "semantic-release": "^22.0.7",
     "semantic-release-monorepo": "^7.0.5",
